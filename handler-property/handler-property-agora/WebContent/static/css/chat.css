@@ -1,0 +1,267 @@
+#chat {
+	width: 1200px;
+	margin:0 auto;
+	background: #fff;
+	font-family: "Microsoft YaHei", sans-serif;
+}
+.chat-box {
+	width: 1398px;
+	height: 828px;
+	margin:20px 0;
+	border:1px solid #cecece;
+	background: #f2f2f2;
+}
+.chat-left {
+	width:559px;
+	height: 100%;
+	border-right:1px solid #cecece;
+	float: left;
+}
+.chat-left .video {
+	width: 100%;
+	height: 327px;
+	border-bottom: 1px solid #cecece;
+	background: #1f4d79;
+	position: relative;
+}
+.chat-left .video p {
+	color:#fff;
+	font-size:18px;
+	position: absolute;
+	left:30px;
+	top: 20px;
+}
+#chatVideo {
+	display: block;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	left:50%;
+	top: 50%;
+	margin-left:-60px;
+	margin-top:-60px;
+}
+#chatVoice {
+	display: block;
+	position: absolute;
+	right: 36px;
+	bottom:24px;
+}
+.chat-left .records {
+	width: 100%;
+	height: 268px;
+	border-bottom:1px solid #cecece;
+}
+/*-----records star-----*/
+.talkList {
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+}
+.talkList li {
+	font-size: 18px;
+	color:#666;
+	margin:20px 30px;
+	overflow: hidden;
+}
+.talkList li.time span {
+	display: block;
+	width: 100%;
+	color:#999;
+	text-align: center;
+}
+.talkList li.robot .talk{
+	display: inline-block;
+	line-height: 48px;
+	min-width: 60px;
+	max-width: 320px;
+	word-break: break-all;
+	padding:0 30px;
+	vertical-align: top;
+	background:#f2d6b2;
+	margin-left: 16px;
+	border-radius: 10px;
+	position: relative;
+	min-height: 48px;
+}
+.talkList li.robot .talk .triangle{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-width: 10px;
+	border-style:solid;
+	border-color:transparent #f2d6b2 transparent transparent;
+	position: absolute;
+	left: -20px;
+	top:15px;
+}
+.talkList li.user .talk {
+	display: inline-block;
+	line-height: 48px;
+	min-width: 60px;
+	max-width: 320px;
+	word-break: break-all;
+	padding:0 30px;
+	vertical-align: top;
+	background: #c3e2ec;
+	float: right;
+	margin-right: 16px;
+	border-radius: 10px;
+	position: relative;
+	min-height: 48px;
+}
+.talkList li.user .talk .triangle{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-width: 10px;
+	border-style:solid;
+	border-color:transparent transparent transparent #c3e2ec;
+	position: absolute;
+	right: -20px;
+	top:15px;
+}
+.talkList .user .logo-head {
+	float: right;
+}
+.talkList .logo-head{
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	background:url(../img/oval.png) no-repeat;
+	overflow: hidden;
+}
+.talkList .logo-head img {
+	display: block;
+	width: 47px;
+	height: 47px;
+	border-radius: 50%;
+}
+
+/*-----records end-----*/
+.chat-left .bottom {
+	width: 100%;
+	position: relative;
+}
+.chat-left .bottom a {
+	display: block;
+	font-size:18px;
+	color:#727272;
+}
+.chat-left .bottom .tools {
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+}
+.chat-left .bottom .tools li {
+	float:left;
+}
+.chat-left .bottom .tools li a {
+	padding-right: 20px;
+}
+.chat-left .bottom .tools li a:nth-of-type(1) {
+	padding-left:20px;
+}
+.chat-left .bottom .text {
+	display: block;
+	padding:0 10px;
+	word-break:break-all;
+	width: 539px;
+	height: 134px;
+	overflow: hidden;
+	font-size:18px;
+	color:#666;
+}
+.chat-left .bottom .sendBtn {
+	width:100%;
+	position: relative;
+}
+.chat-left .bottom .sendBtn a {
+	width: 118px;
+	height: 38px;
+	border:1px solid #cecece;
+	text-align: center;
+	line-height: 38px;
+	border-radius: 10px;
+	float: right;
+	margin:10px;
+}
+.chat-right {
+	width: 838px;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+/*---修改样式 start----*/
+.face {
+	width:240px;
+	border:1px solid #CECECE;
+	position: absolute;
+	z-index: 499;
+	cursor: pointer;
+	cursor: -ms-pointer;
+	background: #FFFFFF;
+	display: none;
+}
+.face img {
+	display: block;
+	float: left;
+}
+.popUp {
+	width: 398px;
+	height: 178px;
+	border:1px solid #cecece;
+	display: none;
+	position: absolute;
+	z-index: 500;
+	top:-220px;
+	left:350px;
+}
+.popUp .popUp-title {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #ccebf5;
+}
+.popUp .popUp-title span {
+	display: inline-block;
+	padding-left: 20px;
+	color:#666;
+	font-size:18px;
+}
+.popUp .popUp-title img {
+	display: inline-block;
+	float: right;
+	margin-right:10px;
+	margin-top: 10px;
+}
+.popUp .popUp-cont {
+	width: 100%;
+	height: 108px;
+	padding-top: 30px;
+	background: #fff;
+	font-size:18px;
+	color:#666;
+	position: relative;
+}
+.popUp .popUp-cont p {
+	margin:0 0 30px 20px;
+}
+.popUp .popUp-cont a {
+	width: 80px;
+	height: 40px;
+	text-align:center;
+	line-height: 40px;
+	display: inline-block;
+	color:#666;
+	position: absolute;
+	bottom: 20px;
+}
+.popUp .popUp-cont a:nth-of-type(1){
+	background: url(../img/no.png) no-repeat 20px 0;
+	right: 100px;
+}
+.popUp .popUp-cont a:nth-of-type(2){
+	background: url(../img/yes.png) no-repeat;
+	right: 0px;
+}

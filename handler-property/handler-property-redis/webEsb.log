@@ -1,0 +1,243 @@
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG Using SLF4J as the default logging framework
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG -Dio.netty.eventLoopThreads: 8
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG java.nio.Buffer.address: available
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG sun.misc.Unsafe.theUnsafe: available
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG sun.misc.Unsafe.copyMemory: available
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG java.nio.Bits.unaligned: true
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG Platform: Windows
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG Java version: 7
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG -Dio.netty.noUnsafe: false
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG sun.misc.Unsafe: available
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG -Dio.netty.noJavassist: false
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG Javassist: unavailable
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG -Dio.netty.tmpdir: C:\Users\ZHANGP~1\AppData\Local\Temp (java.io.tmpdir)
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG -Dio.netty.noPreferDirect: false
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG -Dio.netty.noKeySetOptimization: false
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG -Dio.netty.selectorAutoRebuildThreshold: 512
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG -Dio.netty.initialSeedUniquifier: 0x9b9b12117b5ca138 (took 14 ms)
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG -Dio.netty.allocator.type: unpooled
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG -Dio.netty.threadLocalDirectBufferSize: 65536
+2016-09-13 18:30:32 Slf4JLogger.java DEBUG -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2016-09-13 18:30:33 Slf4JLogger.java DEBUG -Dio.netty.recycler.maxCapacity.default: 262144
+2016-09-13 18:30:33 Slf4JLogger.java DEBUG -Dio.netty.buffer.bytebuf.checkAccessible: true
+2016-09-13 18:30:33 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.level: simple
+2016-09-13 18:30:33 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.maxRecords: 4
+2016-09-13 18:30:33 Slf4JLogger.java DEBUG java.nio.ByteBuffer.cleaner(): available
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG Using SLF4J as the default logging framework
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG -Dio.netty.eventLoopThreads: 8
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG java.nio.Buffer.address: available
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG sun.misc.Unsafe.theUnsafe: available
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG sun.misc.Unsafe.copyMemory: available
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG java.nio.Bits.unaligned: true
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG Platform: Windows
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG Java version: 7
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG -Dio.netty.noUnsafe: false
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG sun.misc.Unsafe: available
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG -Dio.netty.noJavassist: false
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG Javassist: unavailable
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG -Dio.netty.tmpdir: C:\Users\ZHANGP~1\AppData\Local\Temp (java.io.tmpdir)
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG -Dio.netty.noPreferDirect: false
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG -Dio.netty.noKeySetOptimization: false
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG -Dio.netty.selectorAutoRebuildThreshold: 512
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG -Dio.netty.initialSeedUniquifier: 0xd144f2d10f9850e2 (took 8 ms)
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG -Dio.netty.allocator.type: unpooled
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG -Dio.netty.threadLocalDirectBufferSize: 65536
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG -Dio.netty.recycler.maxCapacity.default: 262144
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG -Dio.netty.buffer.bytebuf.checkAccessible: true
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.level: simple
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.maxRecords: 4
+2016-09-13 18:40:37 Slf4JLogger.java DEBUG java.nio.ByteBuffer.cleaner(): available
+2016-09-14 14:54:03 Slf4JLogger.java DEBUG Using SLF4J as the default logging framework
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG -Dio.netty.eventLoopThreads: 8
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG java.nio.Buffer.address: available
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG sun.misc.Unsafe.theUnsafe: available
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG sun.misc.Unsafe.copyMemory: available
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG java.nio.Bits.unaligned: true
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG Platform: Windows
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG Java version: 7
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG -Dio.netty.noUnsafe: false
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG sun.misc.Unsafe: available
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG -Dio.netty.noJavassist: false
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG Javassist: unavailable
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG -Dio.netty.tmpdir: C:\Users\ZHANGP~1\AppData\Local\Temp (java.io.tmpdir)
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG -Dio.netty.noPreferDirect: false
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG -Dio.netty.noKeySetOptimization: false
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG -Dio.netty.selectorAutoRebuildThreshold: 512
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG -Dio.netty.initialSeedUniquifier: 0xeb2e2032a84c5a2f (took 8 ms)
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG -Dio.netty.allocator.type: unpooled
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG -Dio.netty.threadLocalDirectBufferSize: 65536
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG -Dio.netty.recycler.maxCapacity.default: 262144
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG -Dio.netty.buffer.bytebuf.checkAccessible: true
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.level: simple
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.maxRecords: 4
+2016-09-14 14:54:04 Slf4JLogger.java DEBUG java.nio.ByteBuffer.cleaner(): available
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG Using SLF4J as the default logging framework
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG -Dio.netty.eventLoopThreads: 8
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG java.nio.Buffer.address: available
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG sun.misc.Unsafe.theUnsafe: available
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG sun.misc.Unsafe.copyMemory: available
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG java.nio.Bits.unaligned: true
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG Platform: Windows
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG Java version: 7
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG -Dio.netty.noUnsafe: false
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG sun.misc.Unsafe: available
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG -Dio.netty.noJavassist: false
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG Javassist: unavailable
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG -Dio.netty.tmpdir: C:\Users\ZHANGP~1\AppData\Local\Temp (java.io.tmpdir)
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG -Dio.netty.noPreferDirect: false
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG -Dio.netty.noKeySetOptimization: false
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG -Dio.netty.selectorAutoRebuildThreshold: 512
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG -Dio.netty.initialSeedUniquifier: 0x5d886dc121811d9f (took 9 ms)
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG -Dio.netty.allocator.type: unpooled
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG -Dio.netty.threadLocalDirectBufferSize: 65536
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG -Dio.netty.recycler.maxCapacity.default: 262144
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG -Dio.netty.buffer.bytebuf.checkAccessible: true
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.level: simple
+2016-09-14 14:54:25 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.maxRecords: 4
+2016-09-14 14:54:26 Slf4JLogger.java DEBUG java.nio.ByteBuffer.cleaner(): available
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG Using SLF4J as the default logging framework
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG -Dio.netty.eventLoopThreads: 8
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG java.nio.Buffer.address: available
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG sun.misc.Unsafe.theUnsafe: available
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG sun.misc.Unsafe.copyMemory: available
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG java.nio.Bits.unaligned: true
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG Platform: Windows
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG Java version: 7
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG -Dio.netty.noUnsafe: false
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG sun.misc.Unsafe: available
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG -Dio.netty.noJavassist: false
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG Javassist: unavailable
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG -Dio.netty.tmpdir: C:\Users\ZHANGP~1\AppData\Local\Temp (java.io.tmpdir)
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG -Dio.netty.noPreferDirect: false
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG -Dio.netty.noKeySetOptimization: false
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG -Dio.netty.selectorAutoRebuildThreshold: 512
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG -Dio.netty.initialSeedUniquifier: 0xba3fd7a29666fc1f (took 8 ms)
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG -Dio.netty.allocator.type: unpooled
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG -Dio.netty.threadLocalDirectBufferSize: 65536
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG -Dio.netty.recycler.maxCapacity.default: 262144
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG -Dio.netty.buffer.bytebuf.checkAccessible: true
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.level: simple
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.maxRecords: 4
+2016-09-14 14:54:57 Slf4JLogger.java DEBUG java.nio.ByteBuffer.cleaner(): available
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG Using SLF4J as the default logging framework
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG -Dio.netty.eventLoopThreads: 8
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG java.nio.Buffer.address: available
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG sun.misc.Unsafe.theUnsafe: available
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG sun.misc.Unsafe.copyMemory: available
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG java.nio.Bits.unaligned: true
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG Platform: Windows
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG Java version: 7
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG -Dio.netty.noUnsafe: false
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG sun.misc.Unsafe: available
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG -Dio.netty.noJavassist: false
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG Javassist: unavailable
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG -Dio.netty.tmpdir: C:\Users\ZHANGP~1\AppData\Local\Temp (java.io.tmpdir)
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG -Dio.netty.noPreferDirect: false
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG -Dio.netty.noKeySetOptimization: false
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG -Dio.netty.selectorAutoRebuildThreshold: 512
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG -Dio.netty.initialSeedUniquifier: 0x75a8253233af0e20 (took 9 ms)
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG -Dio.netty.allocator.type: unpooled
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG -Dio.netty.threadLocalDirectBufferSize: 65536
+2016-09-14 14:55:41 Slf4JLogger.java DEBUG -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2016-09-14 14:55:42 Slf4JLogger.java DEBUG -Dio.netty.recycler.maxCapacity.default: 262144
+2016-09-14 14:55:42 Slf4JLogger.java DEBUG -Dio.netty.buffer.bytebuf.checkAccessible: true
+2016-09-14 14:55:42 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.level: simple
+2016-09-14 14:55:42 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.maxRecords: 4
+2016-09-14 14:55:42 Slf4JLogger.java DEBUG java.nio.ByteBuffer.cleaner(): available
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG Using SLF4J as the default logging framework
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG -Dio.netty.eventLoopThreads: 8
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG java.nio.Buffer.address: available
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG sun.misc.Unsafe.theUnsafe: available
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG sun.misc.Unsafe.copyMemory: available
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG java.nio.Bits.unaligned: true
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG Platform: Windows
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG Java version: 7
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG -Dio.netty.noUnsafe: false
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG sun.misc.Unsafe: available
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG -Dio.netty.noJavassist: false
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG Javassist: unavailable
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG -Dio.netty.tmpdir: C:\Users\ZHANGP~1\AppData\Local\Temp (java.io.tmpdir)
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG -Dio.netty.noPreferDirect: false
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG -Dio.netty.noKeySetOptimization: false
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG -Dio.netty.selectorAutoRebuildThreshold: 512
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG -Dio.netty.initialSeedUniquifier: 0xe9d305e10cd07edd (took 16 ms)
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG -Dio.netty.allocator.type: unpooled
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG -Dio.netty.threadLocalDirectBufferSize: 65536
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG -Dio.netty.recycler.maxCapacity.default: 262144
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG -Dio.netty.buffer.bytebuf.checkAccessible: true
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.level: simple
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.maxRecords: 4
+2016-09-14 14:56:01 Slf4JLogger.java DEBUG java.nio.ByteBuffer.cleaner(): available
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG Using SLF4J as the default logging framework
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG -Dio.netty.eventLoopThreads: 8
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG java.nio.Buffer.address: available
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG sun.misc.Unsafe.theUnsafe: available
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG sun.misc.Unsafe.copyMemory: available
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG java.nio.Bits.unaligned: true
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG Platform: Windows
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG Java version: 7
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG -Dio.netty.noUnsafe: false
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG sun.misc.Unsafe: available
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG -Dio.netty.noJavassist: false
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG Javassist: unavailable
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG -Dio.netty.tmpdir: C:\Users\ZHANGP~1\AppData\Local\Temp (java.io.tmpdir)
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG -Dio.netty.noPreferDirect: false
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG -Dio.netty.noKeySetOptimization: false
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG -Dio.netty.selectorAutoRebuildThreshold: 512
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG -Dio.netty.initialSeedUniquifier: 0x7f289b14e8f1379e (took 12 ms)
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG -Dio.netty.allocator.type: unpooled
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG -Dio.netty.threadLocalDirectBufferSize: 65536
+2016-09-14 15:02:12 Slf4JLogger.java DEBUG -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2016-09-14 15:02:13 Slf4JLogger.java DEBUG -Dio.netty.recycler.maxCapacity.default: 262144
+2016-09-14 15:02:13 Slf4JLogger.java DEBUG -Dio.netty.buffer.bytebuf.checkAccessible: true
+2016-09-14 15:02:13 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.level: simple
+2016-09-14 15:02:13 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.maxRecords: 4
+2016-09-14 15:02:13 Slf4JLogger.java DEBUG java.nio.ByteBuffer.cleaner(): available
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG Using SLF4J as the default logging framework
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG -Dio.netty.eventLoopThreads: 8
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG java.nio.Buffer.address: available
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG sun.misc.Unsafe.theUnsafe: available
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG sun.misc.Unsafe.copyMemory: available
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG java.nio.Bits.unaligned: true
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG Platform: Windows
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG Java version: 7
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG -Dio.netty.noUnsafe: false
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG sun.misc.Unsafe: available
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG -Dio.netty.noJavassist: false
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG Javassist: unavailable
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG -Dio.netty.tmpdir: C:\Users\ZHANGP~1\AppData\Local\Temp (java.io.tmpdir)
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG -Dio.netty.noPreferDirect: false
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG -Dio.netty.noKeySetOptimization: false
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG -Dio.netty.selectorAutoRebuildThreshold: 512
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG -Dio.netty.initialSeedUniquifier: 0x8157dc1722a95bf1 (took 9 ms)
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG -Dio.netty.allocator.type: unpooled
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG -Dio.netty.threadLocalDirectBufferSize: 65536
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG -Dio.netty.recycler.maxCapacity.default: 262144
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG -Dio.netty.buffer.bytebuf.checkAccessible: true
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.level: simple
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG -Dio.netty.leakDetection.maxRecords: 4
+2016-09-14 15:02:56 Slf4JLogger.java DEBUG java.nio.ByteBuffer.cleaner(): available

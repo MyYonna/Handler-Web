@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="js/mqttws31.min.js" type="text/javascript"></script>  
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<input type="button" value="发送" onclick="sendMessage()">
+<script type="text/javascript">
+var client;
+
+$(function(){
+	//搭建好mqtt服务器之后需要设置它的protocol跟它的listener 然后可能需要打开linux的防火墙
+	  client = new Paho.MQTT.Client("120.24.209.167", Number(8083), "0f44df2ee1fa4ba09440d36af0fd8980");//建立客户端实例  
+	  client.onConnectionLost = onConnectionLost;//注册连接断开处理事件  
+	  client.connect({onSuccess:onConnect,userName:"01a4ec05b64d4511ac2500ab0c0654f7",password:"d4c64f591239475a932219748e9c2484"});//连接服务器并注册连接成功处理事件  
+})
+function sendMessage(){
+	  //发送消息  
+	 var  message = new Paho.MQTT.Message("hello");  
+	 message.destinationName = "location";  
+	 client.send(message);  
+}
+
+function onConnect() {  
+    console.log("onConnected");  
+}  
+
+function onConnectionLost(responseObject) {  
+    if (responseObject.errorCode !== 0) {  
+        console.log("onConnectionLost:"+responseObject.errorMessage);  
+        alert("连接已断开");  
+     }  
+}  
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   	http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+   	http://www.springframework.org/schema/tx
+   	http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+   	http://www.springframework.org/schema/aop
+   	http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+   	http://www.springframework.org/schema/tx
+   	http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+   	http://www.springframework.org/schema/context
+   	http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+	
+	<context:annotation-config order="0"/>
+	
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="${db.driverclass}" />
+		<property name="url" value="${db.read.jdbcurl}" />
+		<property name="username" value="${db.read.user}" />
+		<property name="password" value="${db.read.password}" />
+
+		<!-- 配置过滤 -->
+		<property name="filters" value="stat" />
+		<!-- 配置初始化大小 -->
+		<!-- 配置初始化大小 -->
+		<property name="initialSize" value="${db.initialSize}" />
+		<!-- 配置初始化最大 连接数 -->
+		<property name="maxActive" value="${db.maxActive}" />
+		<!-- 配置初始化最小连接数 -->
+		<property name="minIdle" value="${db.minIdle}" />
+		<!-- 配置获取连接等待超时的时间 -->
+		<property name="maxWait" value="15000" />
+		<!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+		<property name="timeBetweenEvictionRunsMillis" value="60000" />
+		<!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+		<property name="minEvictableIdleTimeMillis" value="300000" />
+		<!-- 检测连接是否有效的SQL -->
+		<property name="validationQuery" value="SELECT 1 " />
+		<property name="testWhileIdle" value="true" />
+		<property name="testOnBorrow" value="true" />
+		<property name="testOnReturn" value="false" />
+		<!-- MySQL不需要做PSCache,只有Oracle/DB2/SQL Server之类支持游标的数据库才需要配置成true -->
+		<property name="poolPreparedStatements" value="false" />
+	</bean>
+
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+        <property name="configLocation" value="classpath:spring/mybatis-config.xml"/> 
+		<property name="mapperLocations" value="classpath*:org/handler/property/redis/persistence/dao/mapper/*.xml" />
+	</bean>
+	
+	 <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+	    <property name="basePackage" value="org.handler.property.redis.persistence.dao"></property>
+	    <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
+	 </bean>
+	
+
+	<bean id="txManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+
+	<tx:advice id="txAdvice" transaction-manager="txManager">
+		<tx:attributes>
+			<tx:method name="save*" propagation="REQUIRED"></tx:method>
+			<tx:method name="add*" propagation="REQUIRED"></tx:method>
+			<tx:method name="insert*" propagation="REQUIRED"></tx:method>
+			<tx:method name="update*" propagation="REQUIRED"></tx:method>
+			<tx:method name="delete*" propagation="REQUIRED"></tx:method>
+			<tx:method name="execute*" propagation="REQUIRED"></tx:method>
+			<tx:method name="batch*" propagation="REQUIRED"></tx:method>
+            <tx:method name="*" propagation="REQUIRED"/>
+
+			<tx:method name="get*" read-only="true" />
+			<tx:method name="count*" read-only="true" />
+			<tx:method name="load*" read-only="true" />
+			<tx:method name="find*" read-only="true" />
+			<tx:method name="list*" read-only="true" />
+			<tx:method name="cell*" read-only="true" />
+
+			<!-- <tx:method name="*" read-only="false" /> -->
+		</tx:attributes>
+	</tx:advice>
+
+	<aop:config>
+		<aop:pointcut id="txPointcut" expression="execution(* org.handler.property.redis.service..*Service.*(..))"/>
+		<aop:advisor advice-ref="txAdvice" pointcut-ref="txPointcut" order="3" />
+	</aop:config>
+	
+</beans>

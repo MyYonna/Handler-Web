@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="js/mqttws31.min.js" type="text/javascript"></script>  
+<script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<input type="button" value="发送" onclick="sendMessage()">
+<script type="text/javascript">
+var client;
+
+$(function(){
+	  client = new Paho.MQTT.Client("120.24.209.167", Number(8083), "53a50368930e4035bf309293b45b89f4");//建立客户端实例  
+	  client.onConnectionLost = onConnectionLost;//注册连接断开处理事件  
+	  client.onMessageArrived = onMessageArrived;//注册消息接收处理事件  
+	  client.connect({onSuccess:onConnect,userName:"18664578764",password:"4cfefe093a2780f08469b4c5d44a12c0"});//连接服务器并注册连接成功处理事件  
+})
+
+function onConnect() {  
+    console.log("onConnected");  
+    client.subscribe("cloudring/server/device/1.0/");//订阅主题  
+}  
+
+function onConnectionLost(responseObject) {  
+    if (responseObject.errorCode !== 0) {  
+        console.log("onConnectionLost:"+responseObject.errorMessage);  
+        alert("连接已断开");  
+     }  
+}  
+
+function onMessageArrived(message) {  
+  alert("收到消息:"+message.payloadString);  
+}  
+
+
+</script>
+</body>
+</html>

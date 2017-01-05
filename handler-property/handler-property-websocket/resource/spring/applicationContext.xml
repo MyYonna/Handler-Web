@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:task="http://www.springframework.org/schema/task" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		                   http://www.springframework.org/schema/beans/spring-beans-4.0.xsd 
+		                   http://www.springframework.org/schema/tx 
+		                   http://www.springframework.org/schema/tx/spring-tx-4.0.xsd 
+		                   http://www.springframework.org/schema/jee 
+		                   http://www.springframework.org/schema/jee/spring-jee-4.0.xsd 
+		                   http://www.springframework.org/schema/aop 
+		                   http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+		                   http://www.springframework.org/schema/task
+		                   http://www.springframework.org/schema/task/spring-task-4.0.xsd
+		                   http://www.springframework.org/schema/context 
+		                   http://www.springframework.org/schema/context/spring-context-4.0.xsd"
+
+	default-lazy-init="false">
+
+	<!-- 属性文件读入 -->
+
+	<!-- 开启AOP监听 只对当前配置文件有效 -->
+<!-- 	<aop:aspectj-autoproxy/> -->
+	<!-- 自动扫描组件，这里要把controler下面的 controller去除，他们是在spring3-servlet.xml中配置的，如果不去除会影响事务管理的。 -->
+	<context:component-scan base-package="org.handler.property.websocket*">
+		<context:exclude-filter type="annotation"
+			expression="org.springframework.stereotype.Controller" />
+	</context:component-scan>
+</beans>
